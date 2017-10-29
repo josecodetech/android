@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ticoticotaa.es.marcadorbaloncesto.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvTitulo"
+            style="@style/texto" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvMarcadorLocal"
+                    style="@style/texto" />
+
+                <Button
+                    android:id="@+id/btnLocal2"
+                    style="@style/boton"
+                    android:text="@string/dosPuntos"/>
+
+                <Button
+                    android:id="@+id/btnLocal3"
+                    style="@style/boton"
+                    android:text="@string/tresPuntos"
+                    />
+
+                <Button
+                    android:id="@+id/btnLocal1"
+                    style="@style/boton"
+                    android:text="@string/unPunto"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvMarcadorVisitante"
+                    style="@style/texto" />
+
+                <Button
+                    android:id="@+id/btnVisitante2"
+                    style="@style/boton"
+                    android:text="@string/dosPuntos"/>
+
+                <Button
+                    android:id="@+id/btnVisitante3"
+                    style="@style/boton"
+                    android:text="@string/tresPuntos"/>
+
+                <Button
+                    android:id="@+id/btnVisitante1"
+                    style="@style/boton"
+                    android:text="@string/unPunto"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnReset"
+            style="@style/boton"
+            android:text="@string/reset"/>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

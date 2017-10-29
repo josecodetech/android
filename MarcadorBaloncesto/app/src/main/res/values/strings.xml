@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MarcadorBaloncesto</string>
+    <string name="dosPuntos">2 Puntos</string>
+    <string name="unPunto">1 PUNTO</string>
+    <string name="tresPuntos">3 PUNTOS</string>
+    <string name="reset">Borrar</string>
+</resources>
