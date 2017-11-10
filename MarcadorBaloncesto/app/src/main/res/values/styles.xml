@@ -12,17 +12,26 @@
     <item name="android:layout_width">wrap_content</item>
     <item name="android:padding">10dp</item>
     <item name="android:layout_margin">10dp</item>
-    <item name="android:background">@color/colorPrimaryDark</item>
+    <item name="android:background">@drawable/esquinaredondeada</item>
     <item name="android:layout_gravity">center</item>
     <item name="android:gravity">center</item>
     <item name="android:textColor">@color/colorAccent</item>
+
 </style>
     <style name="texto">
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:textSize">24sp</item>
-        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textColor">@color/colorAmarillo</item>
         <item name="android:gravity">center</item>
-        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+    <style name="titulo">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorVerde</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
     </style>
 </resources>

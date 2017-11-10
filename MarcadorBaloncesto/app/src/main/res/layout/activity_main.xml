@@ -13,22 +13,27 @@
 
         <TextView
             android:id="@+id/tvTitulo"
-            style="@style/texto" />
+            style="@style/titulo"
+            android:hint="Marcador Basket"/>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            >
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:layout_weight="1"
+                >
 
                 <TextView
                     android:id="@+id/tvMarcadorLocal"
-                    style="@style/texto" />
+                    style="@style/texto"
+                    android:hint="Local"/>
 
                 <Button
                     android:id="@+id/btnLocal2"
@@ -50,11 +55,14 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:layout_weight="1"
+                >
 
                 <TextView
                     android:id="@+id/tvMarcadorVisitante"
-                    style="@style/texto" />
+                    style="@style/texto"
+                    android:hint="Visitante"/>
 
                 <Button
                     android:id="@+id/btnVisitante2"

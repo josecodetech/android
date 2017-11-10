@@ -74,5 +74,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void borra(){
         marcadorLocal.setText("Local: "+0);
         marcadorVisitante.setText("Visitante: "+0);
+        puntuacionLocal=0;
+        puntuacionVisitante=0;
     }
 }
