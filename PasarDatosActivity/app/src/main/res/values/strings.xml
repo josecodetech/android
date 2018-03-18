@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">PasarDatosActivity</string>
+    <string name="tvNombre">Nombre</string>
+    <string name="etNombre">Nombre</string>
+    <string name="btnEnviar">Enviar</string>
+</resources>
