@@ -10,7 +10,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     ListView lvLista;
-    String[] colores = new String[] {"rojo","amarillo","verde","azul"};
+    String[] colores = new String[] {"rojo","amarillo","verde","azul","rosa","naranja"};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,8 +21,27 @@ public class MainActivity extends AppCompatActivity {
         lvLista.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-
                 Toast.makeText(getApplicationContext(),"Pulsastes el numero "+position,Toast.LENGTH_SHORT).show();
+                switch(position){
+                    case 0:
+                        parent.getChildAt(position).setBackgroundColor(getResources().getColor(R.color.rojo));
+                        break;
+                    case 1:
+                        parent.getChildAt(position).setBackgroundColor(getResources().getColor(R.color.amarillo));
+                        break;
+                    case 2:
+                        parent.getChildAt(position).setBackgroundColor(getResources().getColor(R.color.verde));
+                        break;
+                    case 3:
+                        parent.getChildAt(position).setBackgroundColor(getResources().getColor(R.color.azul));
+                        break;
+                    case 4:
+                        parent.getChildAt(position).setBackgroundColor(getResources().getColor(R.color.rosa));
+                        break;
+                    case 5:
+                        parent.getChildAt(position).setBackgroundColor(getResources().getColor(R.color.naranja));
+                        break;
+                }
             }
         });
     }
